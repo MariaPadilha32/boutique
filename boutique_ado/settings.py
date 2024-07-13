@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-()#a47gh^rgwddll060qgm)%$#rb+(hz$y21#_ii084(nnkngs
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = ['8000-mariapadilha32-boutique-r7crkg9hg3.us1.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-mariapadilha32-boutique-r7crkg9hg3.us1.codeanyapp.com', 'http://127.0.0.1:8000/', ' ']
 
 
 
@@ -47,7 +46,7 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'checkout',
-    #'profiles',
+    'profiles',
 ]
 
 MIDDLEWARE = [
